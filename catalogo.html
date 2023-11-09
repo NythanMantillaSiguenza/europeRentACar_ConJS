@@ -11,49 +11,18 @@
 </head>
 <body>
     <div class="wrapper">
-        <aside>
-            <header>
-                <img src="./image/eurepe logo.png" alt="">
-            </header>
-            <nav>
-                <ul>
+        <header>
+            <a href="#"><img class="logo" src="./image/eurepe logo.png" alt="" ></a>
+            <button id="abrir" class="abrir_menu"><i class="bi bi-list"></i></button>
+            <nav class="nav_bar" id="nav">
+                <button id="cerrar" class="cerrar_menu"><i class="bi bi-x"></i></button>
+                <ul class="menu">
                     <li>
-                        <a class="boton_menu boton_categoria" href="./index.html"> <i class="bi bi-arrow-right"></i> Volver al inicio</a>
-                    </li>
-                    <li>
-                        <button class="boton_menu boton_categoria active"><i class="bi bi-arrow-right"></i>Catálogo</button>
+                        <a id="boton_catalogo" class="boton_menu boton_categoria" href="./index.html">Volver al inicio</a>
                     </li>
                 </ul>
             </nav>
-            <footer>
-                <div class="footer_contacto">
-                <!-- <a href="#" class="logo">
-                    <img src="./image/eurepe logo.png" alt="logo de la compañia">
-                </a> -->
-                <p>Celular:
-                <br>
-                +593 97 970 6710 
-                <br>
-                +593 95 905 9749
-                <br>
-                +593 96 883 3441
-                </p>
-                <p>Mail:
-                    <br>
-                    kellysiguenzat77@hotmail.com
-                    <br>
-                    leoharogye@gmail.com
-                    </p>
-            </div>
-            <div class="redes">
-                <a href="https://wa.me/+593979706710?text=Hola, estoy interesado en alquilar un auto." target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="mailto:kellysiguenzat77@hotmail.com"><i class="fa-regular fa-envelope"></i></a>
-                <a href="https://goo.gl/maps/o8FXpoRDEuDa3zSw6" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
-            </div>
-            <p>Todos los derechos reservados por copyright.     <i class="fa-solid fa-copyright"></i>
-            </p>
-        </footer>
-        </aside>
+        </header>
         <main>
             <h2 class="titulo_principal">Nuestro Catálogo</h2>
             <div class="contenedor_catalogo">
@@ -126,7 +95,36 @@
                     </div>
                 </div>
             </div>
+            <footer>
+                <!-- <div class="footer_contacto">
+                <a href="#" class="logo">
+                    <img src="./image/eurepe logo.png" alt="logo de la compañia">
+                </a>
+                    <p>Celular:
+                    <br>
+                    +593 97 970 6710 
+                    <br>
+                    +593 95 905 9749
+                    <br>
+                    +593 96 883 3441
+                    </p>
+                    <p>Mail:
+                    <br>
+                    kellysiguenzat77@hotmail.com
+                    <br>
+                    leoharogye@gmail.com
+                    </p>
+                </div> -->
+            <div class="redes">
+                <a href="https://wa.me/+593979706710?text=Hola, estoy interesado en alquilar un auto." target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:kellysiguenzat77@hotmail.com"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://goo.gl/maps/o8FXpoRDEuDa3zSw6" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+            </div>
+            <p>Todos los derechos reservados por copyright.     <i class="fa-solid fa-copyright"></i>
+            </p>
+        </footer>
         </main>
     </div>
+    <script src="./js/carrito.js"></script>
 </body>
 </html>
